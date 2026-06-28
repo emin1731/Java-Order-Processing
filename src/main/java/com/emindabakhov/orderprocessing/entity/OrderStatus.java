@@ -1,2 +1,6 @@
-package com.emindabakhov.orderprocessing.entity;public class OrderStatus {
+package com.emindabakhov.orderprocessing.entity;
+
+public enum OrderStatus {
+    PENDING,
+    COMPLETED
 }
