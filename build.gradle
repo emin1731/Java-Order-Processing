@@ -34,6 +34,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
 	testCompileOnly 'org.projectlombok:lombok'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 	testAnnotationProcessor 'org.projectlombok:lombok'
 }
 
